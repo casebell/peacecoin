@@ -1,6 +1,5 @@
 
-D
-Peacecoin integration/staging tre e
+Peacecoin integration/staging tree
 ================================
 
 http://www.peacecoin.org
