@@ -71,7 +71,8 @@ Instructions: MacPorts
 Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
-or: sudo port install boost db48 openssl miniupnpc
+or simply:
+    sudo port install boost db48 openssl miniupnpc
 
 For building the Peacecoin-Qt.app qt4 is needed:
 
@@ -100,7 +101,6 @@ For building the Peacecoin-Qt.app qt4 is needed:
         /opt/local/libexec/qt4/bin/qmake -o Makefile peacecoin-qt.pro
         make
 
-When linking fails you have to edit IsBinary.hpp and do make again, edit IsBinary.hpp back and do make again.
 
 Instructions: HomeBrew
 ----------------------
